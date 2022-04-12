@@ -37,3 +37,11 @@ models:
     staging:
       materialized: view
       +schema: staging
+    
+    marts:
+      materialized: view
+      +schema: marts
+
+      core:
+      materialized: view
+      +schema: core
