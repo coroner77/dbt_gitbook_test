@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: gitbook_data
     database: gitbook_raw
-    schema: gitbook_data
+    schema: itw_test
     tables:
       - name: company
       - name: user_event
