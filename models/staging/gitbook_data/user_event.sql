@@ -1,1 +1,1 @@
-select * from gitbook_raw.itw_test.user_event
+select * from {{ source('gitbook_data', 'user_event') }}
