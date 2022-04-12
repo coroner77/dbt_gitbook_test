@@ -1,1 +1,1 @@
-select * from gitbook_raw.itw_test.company
+select * from {{ source('gitbook_data', 'company') }}
